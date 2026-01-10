@@ -4,6 +4,18 @@
 int x = 5;  // Initialize x with value 5
 int y = 7;  // Initialize y with value 7
 
+/*
+Truth Table
+| A | B | A && B | A || B | !A |
+| - | - | ------ | ------ | -- |
+| 0 | 0 | 0      | 0      | 1  |
+| 0 | 1 | 0      | 1      | 1  |
+| 1 | 0 | 0      | 1      | 0  |
+| 1 | 1 | 1      | 1      | 0  |
+
+*/
+ 
+
 int main() {
     // Print a title for the program
     std::cout << "Logical Operators Examples" << std::endl;
